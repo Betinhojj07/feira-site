@@ -42,8 +42,8 @@ align-items: center;
     display: flex;
    img{
     display: flex;
-    width: 220px;
-    height: 170px;
+    width: 300px;
+    height: 300px;
     border-radius: 5px;
     
    }
@@ -51,9 +51,9 @@ align-items: center;
 
 
   .info-paragrafo{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
-    width: 230px;
+    width: 290px;
   }
    
 }
@@ -68,7 +68,7 @@ align-items: center;
 
     button{
         display: flex;
-        height: 15px;
+        height: 12px;
         border-radius:50%;
        border:0px;
        background-color: #8F97AC;
@@ -79,4 +79,28 @@ align-items: center;
     }
 }
 
+
+
+@media(max-width: 800px){
+
+ .carrocel{
+    display: flex;
+    flex-direction: column;
+
+    .rolagem{
+
+        img{
+            display: flex;
+            width: 200px;
+            height: 200px;
+            justify-content: center;
+            
+        }
+        display: flex;
+        justify-content: center;
+        
+    }
+ }   
 }
+}
+
